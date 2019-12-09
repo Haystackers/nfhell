@@ -1,0 +1,495 @@
+# http://nflsavant.com/pbp_data.php?year=2018
+/usr/local/Cellar/csvkit/1.0.4/libexec/lib/python3.7/site-packages/agate/utils.py:276: UnnamedColumnWarning: Column 10 has no name. Using "k".
+/usr/local/Cellar/csvkit/1.0.4/libexec/lib/python3.7/site-packages/agate/utils.py:276: UnnamedColumnWarning: Column 12 has no name. Using "m".
+/usr/local/Cellar/csvkit/1.0.4/libexec/lib/python3.7/site-packages/agate/utils.py:276: UnnamedColumnWarning: Column 16 has no name. Using "q".
+/usr/local/Cellar/csvkit/1.0.4/libexec/lib/python3.7/site-packages/agate/utils.py:276: UnnamedColumnWarning: Column 17 has no name. Using "r".
+  1. "GameId"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         254
+	Smallest value:        2,018,090,600
+	Largest value:         2,018,123,015
+	Sum:                   90,847,120,119,965
+	Mean:                  2,018,107,342.278
+	Median:                2,018,110,403
+	StDev:                 11,520.262
+	Most common values:    2,018,093,004 (240x)
+	                       2,018,093,009 (239x)
+	                       2,018,090,901 (231x)
+	                       2,018,100,703 (219x)
+	                       2,018,102,109 (217x)
+
+  2. "GameDate"
+
+	Type of data:          Date
+	Contains null values:  False
+	Unique values:         49
+	Smallest value:        2018-09-06
+	Largest value:         2018-12-30
+	Most common values:    2018-12-30 (2724x)
+	                       2018-12-09 (2546x)
+	                       2018-12-02 (2540x)
+	                       2018-09-23 (2474x)
+	                       2018-09-16 (2468x)
+
+  3. "Quarter"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5
+	Smallest value:        1
+	Largest value:         5
+	Sum:                   116,124
+	Mean:                  2.58
+	Median:                3
+	StDev:                 1.131
+	Most common values:    2 (12610x)
+	                       4 (12360x)
+	                       3 (9895x)
+	                       1 (9744x)
+	                       5 (407x)
+
+  4. "Minute"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         16
+	Smallest value:        0
+	Largest value:         15
+	Sum:                   283,210
+	Mean:                  6.291
+	Median:                6
+	StDev:                 4.66
+	Most common values:    0 (5506x)
+	                       2 (3899x)
+	                       1 (3847x)
+	                       3 (2913x)
+	                       4 (2770x)
+
+  5. "Second"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         60
+	Smallest value:        0
+	Largest value:         59
+	Sum:                   1,228,702
+	Mean:                  27.295
+	Median:                27
+	StDev:                 18.27
+	Most common values:    0 (3889x)
+	                       55 (790x)
+	                       15 (773x)
+	                       54 (772x)
+	                       25 (761x)
+
+  6. "OffenseTeam"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Unique values:         33
+	Longest value:         3 characters
+	Most common values:    None (3438x)
+	                       IND (1389x)
+	                       NE (1386x)
+	                       BAL (1380x)
+	                       LA (1379x)
+
+  7. "DefenseTeam"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         32
+	Longest value:         3 characters
+	Most common values:    CLE (1563x)
+	                       KC (1521x)
+	                       NYJ (1507x)
+	                       CIN (1491x)
+	                       NYG (1489x)
+
+  8. "Down"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5
+	Smallest value:        0
+	Largest value:         4
+	Sum:                   74,244
+	Mean:                  1.649
+	Median:                1
+	StDev:                 1.172
+	Most common values:    1 (15464x)
+	                       2 (11290x)
+	                       0 (7450x)
+	                       3 (7048x)
+	                       4 (3764x)
+
+  9. "ToGo"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         41
+	Smallest value:        0
+	Largest value:         46
+	Sum:                   324,859
+	Mean:                  7.217
+	Median:                9
+	StDev:                 4.964
+	Most common values:    10 (17315x)
+	                       0 (7450x)
+	                       1 (2013x)
+	                       6 (1860x)
+	                       5 (1856x)
+
+ 10. "YardLine"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         100
+	Smallest value:        0
+	Largest value:         99
+	Sum:                   2,034,333
+	Mean:                  45.191
+	Median:                40
+	StDev:                 26.797
+	Most common values:    0 (3438x)
+	                       35 (3141x)
+	                       25 (2382x)
+	                       85 (1542x)
+	                       30 (702x)
+
+ 11. "k"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1
+	Most common values:    None (45016x)
+
+ 12. "SeriesFirstDown"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (28463x)
+	                       True (16553x)
+
+ 13. "m"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1
+	Most common values:    None (45016x)
+
+ 14. "NextScore"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         1
+	Most common values:    False (45016x)
+
+ 15. "Description"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         40875
+	Longest value:         559 characters
+	Most common values:    TWO-MINUTE WARNING (505x)
+	                       END QUARTER 1 (254x)
+	                       END QUARTER 3 (253x)
+	                       END QUARTER 2 (252x)
+	                       END GAME (247x)
+
+ 16. "TeamWin"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         1
+	Most common values:    False (45016x)
+
+ 17. "q"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1
+	Most common values:    None (45016x)
+
+ 18. "r"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1
+	Most common values:    None (45016x)
+
+ 19. "SeasonYear"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         1
+	Smallest value:        2,018
+	Largest value:         2,018
+	Sum:                   90,842,288
+	Mean:                  2,018
+	Median:                2,018
+	StDev:                 0
+	Most common values:    2,018 (45016x)
+
+ 20. "Yards"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         112
+	Smallest value:        -22
+	Largest value:         104
+	Sum:                   191,951
+	Mean:                  4.264
+	Median:                0
+	StDev:                 8.364
+	Most common values:    0 (19972x)
+	                       2 (2011x)
+	                       4 (1953x)
+	                       3 (1952x)
+	                       1 (1828x)
+
+ 21. "Formation"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Unique values:         8
+	Longest value:         17 characters
+	Most common values:    SHOTGUN (19582x)
+	                       UNDER CENTER (18854x)
+	                       PUNT (2216x)
+	                       NO HUDDLE SHOTGUN (2065x)
+	                       FIELD GOAL (948x)
+
+ 22. "PlayType"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Unique values:         17
+	Longest value:         20 characters
+	Most common values:    PASS (18492x)
+	                       RUSH (12173x)
+	                       KICK OFF (2645x)
+	                       PUNT (2295x)
+	                       TIMEOUT (1866x)
+
+ 23. "IsRush"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (32017x)
+	                       True (12999x)
+
+ 24. "IsPass"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (26524x)
+	                       True (18492x)
+
+ 25. "IsIncomplete"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (38686x)
+	                       True (6330x)
+
+ 26. "IsTouchdown"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (43553x)
+	                       True (1463x)
+
+ 27. "PassType"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Unique values:         10
+	Longest value:         18 characters
+	Most common values:    None (26527x)
+	                       SHORT RIGHT (5995x)
+	                       SHORT LEFT (5352x)
+	                       SHORT MIDDLE (3593x)
+	                       DEEP RIGHT (1432x)
+
+ 28. "IsSack"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (43646x)
+	                       True (1370x)
+
+ 29. "IsChallenge"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (44859x)
+	                       True (157x)
+
+ 30. "IsChallengeReversed"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (44953x)
+	                       True (63x)
+
+ 31. "Challenger"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1
+	Most common values:    None (45016x)
+
+ 32. "IsMeasurement"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         1
+	Most common values:    False (45016x)
+
+ 33. "IsInterception"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (44575x)
+	                       True (441x)
+
+ 34. "IsFumble"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (44391x)
+	                       True (625x)
+
+ 35. "IsPenalty"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (41148x)
+	                       True (3868x)
+
+ 36. "IsTwoPointConversion"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (44882x)
+	                       True (134x)
+
+ 37. "IsTwoPointConversionSuccessful"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (44949x)
+	                       True (67x)
+
+ 38. "RushDirection"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Unique values:         8
+	Longest value:         12 characters
+	Most common values:    None (32843x)
+	                       CENTER (3706x)
+	                       LEFT END (1540x)
+	                       RIGHT GUARD (1497x)
+	                       LEFT GUARD (1413x)
+
+ 39. "YardLineFixed"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         51
+	Smallest value:        0
+	Largest value:         50
+	Sum:                   1,208,459
+	Mean:                  26.845
+	Median:                29
+	StDev:                 14.32
+	Most common values:    35 (3538x)
+	                       0 (3438x)
+	                       25 (2706x)
+	                       15 (1858x)
+	                       45 (1118x)
+
+ 40. "YardLineDirection"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         2
+	Longest value:         3 characters
+	Most common values:    OWN (27097x)
+	                       OPP (17919x)
+
+ 41. "IsPenaltyAccepted"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (41609x)
+	                       True (3407x)
+
+ 42. "PenaltyTeam"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Unique values:         33
+	Longest value:         3 characters
+	Most common values:    None (41151x)
+	                       KC (157x)
+	                       DEN (147x)
+	                       IND (135x)
+	                       JAX (134x)
+
+ 43. "IsNoPlay"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         2
+	Most common values:    False (42545x)
+	                       True (2471x)
+
+ 44. "PenaltyType"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Unique values:         52
+	Longest value:         37 characters
+	Most common values:    None (41149x)
+	                       OFFENSIVE HOLDING (836x)
+	                       FALSE START (565x)
+	                       DEFENSIVE HOLDING (305x)
+	                       DEFENSIVE PASS INTERFERENCE (255x)
+
+ 45. "PenaltyYards"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         49
+	Smallest value:        0
+	Largest value:         56
+	Sum:                   28,217
+	Mean:                  0.627
+	Median:                0
+	StDev:                 2.641
+	Most common values:    0 (41705x)
+	                       5 (1482x)
+	                       10 (895x)
+	                       15 (410x)
+	                       4 (57x)
+
+Row count: 45016
