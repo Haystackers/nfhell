@@ -15,11 +15,10 @@ server <- function(input, output) {
   output$dt <- renderDataTable(
     datatable(nfl_pbp_2018)  
   )
-  output$game_date <- selectInput("game_date", "Game date:",
-              choices = games$GameDate
+  output$game_date <- renderUI(
+    selectInput("game_date", "Game date:", choices = games$GameDate)
   )
-  
-  output$game_teams <- selectInput("game_offense", "Game date:",
-              choices = games[games$GameDate == input$game_date]$OffenseTeam
+  output$game_teams <- renderUI(
+    selectInput("game_offense", "Game date:", choices = games[games$GameDate == input$game_date]$OffenseTeam)
   )
 }
