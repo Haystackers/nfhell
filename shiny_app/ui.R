@@ -7,7 +7,7 @@ ui <- pageWithSidebar(
   sidebarPanel(
     inputPanel(
       shiny::uiOutput("game_date"),
-      shiny::uiOutput("game_teams")
+      shiny::uiOutput("game_offense")
     ),
     # tabsetPanel(
     #   tabPanel("Dashboard", tabName = "dashboard", icon = icon("dashboard")),

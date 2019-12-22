@@ -18,7 +18,7 @@ server <- function(input, output) {
   output$game_date <- renderUI(
     selectInput("game_date", "Game date:", choices = games$GameDate)
   )
-  output$game_teams <- renderUI(
-    selectInput("game_offense", "Game date:", choices = games[games$GameDate == input$game_date]$OffenseTeam)
+  output$game_offense <- renderUI(
+    selectInput("game_offense", "Team*:", choices = games[games$GameDate == input$game_date,]$OffenseTeam)
   )
 }
