@@ -6,10 +6,21 @@ ui <- pageWithSidebar(
   
   sidebarPanel(
     inputPanel(
-      selectInput("game", "Game:",
-        choices = games$GameDate
-      )
-    )
+      shiny::uiOutput("game_date"),
+      shiny::uiOutput("game_teams")
+    ),
+    # tabsetPanel(
+    #   tabPanel("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
+    #   tabPanel("Widgets", icon = icon("th"), tabName = "widgets", badgeLabel = "new",
+    #            badgeColor = "green"
+    #   ),
+    #   tabPanel("Charts", icon = icon("bar-chart-o")),
+    #   tabPanel("Source code for app", icon = icon("file-code-o"),
+    #            href = "https://github.com/rstudio/shinydashboard/blob/gh-pages/_apps/sidebar/app.R"
+    #   )
+    # ),
+    # sliderInput("threshold", "Threshold:", 1, 20, 5),
+    # textInput("text", "Text input")
   ),
   
   mainPanel(
